@@ -4,8 +4,8 @@
 # title Unpacker_PAC
 chmod a+x *
 currentdir=$(pwd)
-file="$HOME/storage/downloads"
-folderextract="$HOME/storage/downloads/extract"
+file="/storage/emulated/0/Download"
+folderextract="${file}/extract"
 mkdir -p $folderextract
 # Create the extract folder if it doesn't exist
 
